@@ -1,0 +1,19 @@
+.header {
+  padding : 10px
+}
+
+.header img {
+  float: left;
+  margin-left: 40px;
+}
+
+.header div,
+.header ul {
+  float: right;
+}
+
+.header ul li {
+  float: right;
+  list-style-type: none;
+  margin-right: 20px;
+}
