@@ -1,19 +1,71 @@
+body, html {
+    height:100%;
+}
+
+* {
+  margin:0;
+  padding:0;
+  border:0;
+    outline:0;
+  list-style:none;
+  vertical-align:baseline;
+  text-decoration:none;
+}
+
+body {
+    font-family:'Open Sans', sans-serif;
+    font-weight:400;
+    font-size:13px;
+    color:#404040;
+    background-color:#f2f2f2;
+}
+
+.wrap {
+  max-width:1140px;
+  min-width:900px;
+  margin:auto;
+  padding:0 10px;
+}
+
+/*WIDTH*/
+
+.col_10 {
+  width:100%;
+}
+
+/*POSITION*/
+
+.floatright {
+  float:right;
+}
+
+.floatleft {
+  float:left;
+}
+
+.marginauto {
+  margin:0 auto;
+}
+
 .header {
-  padding : 10px
+  height:70px;
+  padding-top:15px;
 }
 
-.header img {
-  float: left;
-  margin-left: 40px;
-}
-
-.header div,
-.header ul {
-  float: right;
-}
-
-.header ul li {
-  float: right;
-  list-style-type: none;
+.header ul li{
   margin-right: 20px;
+  margin-top: 15px;
+}
+
+#listyourspace{
+  margin-top: 10px;
+  padding: 5px;
+  height: 20px;
+  background-color: yellow;
+  border-radius: 2px;
+}
+
+.carousel {
+  height:280px;
+  background-image: url('./img/Carousel3.png');
 }
