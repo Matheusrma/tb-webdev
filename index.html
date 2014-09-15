@@ -4,15 +4,13 @@
     <meta charset="utf-8">
     <title>Guesthouse</title>
 
-    <script
-      src="https://rawgit.com/flatiron/director/master/build/director.min.js">
-    </script>
+    <script src="https://rawgit.com/flatiron/director/master/build/director.min.js"></script>
+
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 
     <link rel="stylesheet" type="text/css" href="app.css">
 
-    <script
-      src = "./routing.js">
-    </script>
+    <script src = "./routing.js"></script>
   </head>
 
   <body>
@@ -27,16 +25,49 @@
               List your space
             </div>
             <ul class="floatright padding10">
-              <li class="floatright"><a href="/register">SIGNUP</a></li>
-              <li class="floatright"><a href="/login">LOGIN</a></li>
+              <li class="floatright"><a href="#/register">SIGNUP</a></li>
+              <li class="floatright"><a href="#/login">LOGIN</a></li>
             </ul>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="carousel col_10">
+    <section data-route="login">
+      <div class="carousel col_10">
+        <h1 class="carouseltitle">Login</h1>
+      </div>
 
-    </div>
+      <div class="form">
+        <div class="form marginauto col_2">
+          <input type="text" placeholder="Your Email Address"/>
+          <input type="password" placeholder="Your Password"/>
+          <button class="aligncenter button">
+            Login
+          </button>
+          <p class="aligncenter">Dont have an account? <span> <a href="/register"> Sign Up  </a> </span> </p>
+        </div>
+      </div>
+    </section>
+
+    <section data-route="register">
+      <div class="carousel col_10">
+        <h1 class="carouseltitle">Register</h1>
+      </div>
+
+      <div class="form">
+        <div class="form marginauto col_2">
+          <input type="text" placeholder="Your Email Address"/>
+          <input type="password" placeholder="Your Password"/>
+          <button class="aligncenter button">
+            Login
+          </button>
+          <p class="aligncenter">Dont have an account? <span> <a href="/register"> Sign Up  </a> </span> </p>
+        </div>
+      </div>
+      
+    </section>
+
+    
   </body>
 </html>

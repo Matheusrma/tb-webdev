@@ -33,6 +33,10 @@ body {
   width:100%;
 }
 
+.col_2{
+  width:20%;
+}
+
 /*POSITION*/
 
 .floatright {
@@ -61,11 +65,67 @@ body {
   margin-top: 10px;
   padding: 5px;
   height: 20px;
-  background-color: yellow;
+  background-color: #FFD300;
   border-radius: 2px;
+  color: white;
+  font-weight: 600;
 }
 
 .carousel {
   height:280px;
   background-image: url('./img/Carousel3.png');
+}
+
+.carouseltitle {
+  text-align: center;
+  vertical-align: middle;
+  color:white;
+}
+
+.form {
+  background-color: #CCC;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.aligncenter{
+  text-align: center;
+}
+
+input {
+  border:1px solid #e5e5e5;
+  color:#404040;
+  padding:12px 12px;
+  margin-bottom: 10px;
+  font-family:'Open Sans', sans-serif;
+  font-size:14px;
+  font-weight: 400;
+  width: 100%;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  border-radius:3px;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+  background-color:#fff;
+}
+
+.button {
+  background: #0B61A4;
+  border: none;
+  padding: 10px 25px 10px 25px;
+  color: #FFF;
+  box-shadow: 1px 1px 5px #B6B6B6;
+  border-radius: 3px;
+  text-shadow: 1px 1px 1px #9E3F3F;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.button:hover {
+    background: #25567B
 }
