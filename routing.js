@@ -14,7 +14,7 @@ var allroutes = function() {
 
   if (route == '') route = 'index';
 
-  console.log(sections)
+  console.log(sections);
 
   section = sections.filter('[data-route=' + route + ']');
 
