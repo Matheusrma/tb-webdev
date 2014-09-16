@@ -9,8 +9,6 @@
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 
     <link rel="stylesheet" type="text/css" href="app.css">
-
-    <script src = "./routing.js"></script>
   </head>
 
   <body>
@@ -18,15 +16,15 @@
       <div class="marginauto col_10">
         <div class="wrap">
           <a href="/">
-            <img class="floatleft" src="./img/Guesthouse-logo.png"/>
+            <img class="floatleft vertical" src="./img/Guesthouse-logo.png"/>
           </a>
           <div class="floatright">
             <div id="listyourspace" class="floatright">
               List your space
             </div>
             <ul class="floatright padding10">
-              <li class="floatright"><a href="#/register">SIGNUP</a></li>
-              <li class="floatright"><a href="#/login">LOGIN</a></li>
+              <li class="floatright vertical"><a href="./register">SIGNUP</a></li>
+              <li class="floatright vertical"><a href="./login">LOGIN</a></li>
             </ul>
           </div>
         </div>
@@ -35,17 +33,17 @@
 
     <section data-route="login">
       <div class="carousel col_10">
-        <h1 class="carouseltitle">Login</h1>
+        <h1 class="carouseltitle vertical">Login</h1>
       </div>
 
       <div class="form">
-        <div class="form marginauto col_2">
+        <div class="form marginauto col_3">
           <input type="text" placeholder="Your Email Address"/>
           <input type="password" placeholder="Your Password"/>
-          <button class="aligncenter button">
+          <button class="centeralign basebutton">
             Login
           </button>
-          <p class="aligncenter">Dont have an account? <span> <a href="/register"> Sign Up  </a> </span> </p>
+          <p class="textcenter">Dont have an account? <span> <a href="/register"> Sign Up  </a> </span> </p>
         </div>
       </div>
     </section>
@@ -56,18 +54,17 @@
       </div>
 
       <div class="form">
-        <div class="form marginauto col_2">
+        <div class="form marginauto col_3">
           <input type="text" placeholder="Your Email Address"/>
           <input type="password" placeholder="Your Password"/>
-          <button class="aligncenter button">
-            Login
+          <button class="centeralign basebutton">
+            Sign Up
           </button>
-          <p class="aligncenter">Dont have an account? <span> <a href="/register"> Sign Up  </a> </span> </p>
         </div>
       </div>
       
     </section>
 
-    
+    <script src = "./routing.js"></script>
   </body>
 </html>

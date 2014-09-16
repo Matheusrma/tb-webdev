@@ -1,30 +1,31 @@
 //ROUTING
 
-var login = function () { 
-  
-};
-
-var register = function () { 
+var stub = function () { 
   
 };
 
 var allroutes = function() {
-  var route = window.location.hash.slice(2);
+  var route = location.pathname.slice(1);
+
   console.log(route);
+
   var sections = $('section');
   var section;
 
   section = sections.filter('[data-route=' + route + ']');
 
+  console.log(sections.length);
+  console.log(section.length);
+
   if (section.length) {
-    sections.hide(250);
-    section.show(250);
+    sections.hide(50);
+    section.show(50);
   }
 };
 
 var routes = {
-  '/login': login,
-  '/register': register,
+  '/login': stub,
+  '/register': stub,
 };
 
 var options = {

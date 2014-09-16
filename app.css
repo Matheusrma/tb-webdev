@@ -6,18 +6,18 @@ body, html {
   margin:0;
   padding:0;
   border:0;
-    outline:0;
+  outline:0;
   list-style:none;
   vertical-align:baseline;
   text-decoration:none;
 }
 
 body {
-    font-family:'Open Sans', sans-serif;
-    font-weight:400;
-    font-size:13px;
-    color:#404040;
-    background-color:#f2f2f2;
+  font-family:'Open Sans', sans-serif;
+  font-weight:400;
+  font-size:13px;
+  color:#404040;
+  background-color:#f2f2f2;
 }
 
 .wrap {
@@ -33,8 +33,8 @@ body {
   width:100%;
 }
 
-.col_2{
-  width:20%;
+.col_3{
+  width:30%;
 }
 
 /*POSITION*/
@@ -52,8 +52,9 @@ body {
 }
 
 .header {
-  height:70px;
+  height:60px;
   padding-top:15px;
+  color: #FFF;
 }
 
 .header ul li{
@@ -73,10 +74,12 @@ body {
 
 .carousel {
   height:280px;
+  line-height: 280px;
   background-image: url('./img/Carousel3.png');
 }
 
 .carouseltitle {
+  font-size: 35px;
   text-align: center;
   vertical-align: middle;
   color:white;
@@ -88,8 +91,12 @@ body {
   padding-bottom: 20px;
 }
 
-.aligncenter{
+.textcenter{
   text-align: center;
+}
+
+.centeralign{
+  margin: 0 auto;
 }
 
 input {
@@ -97,35 +104,47 @@ input {
   color:#404040;
   padding:12px 12px;
   margin-bottom: 10px;
+  
   font-family:'Open Sans', sans-serif;
   font-size:14px;
   font-weight: 400;
   width: 100%;
+  
   -moz-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  border-radius:3px;
+  
+  border: 1px solid black;
+
+  border-radius:4px;
+  line-height: 14px;
+
   -webkit-box-sizing:border-box;
   -moz-box-sizing:border-box;
   box-sizing:border-box;
+
   background-color:#fff;
 }
 
-.button {
+.basebutton {
   background: #0B61A4;
   border: none;
   padding: 10px 25px 10px 25px;
   color: #FFF;
   box-shadow: 1px 1px 5px #B6B6B6;
   border-radius: 3px;
+  
   text-shadow: 1px 1px 1px #9E3F3F;
+  
   cursor: pointer;
+
   margin-top: 10px;
   margin-bottom: 20px;
-  text-align: center;
+
+  display:block;
 }
 
-.button:hover {
-    background: #25567B
+.basebutton:hover {
+  background: #25567B
 }
