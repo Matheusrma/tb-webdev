@@ -18,6 +18,7 @@ body {
   font-size:13px;
   color:#404040;
   background-color:#f2f2f2;
+  position: relative;
 }
 
 .wrap {
@@ -83,12 +84,13 @@ body {
   text-align: center;
   vertical-align: middle;
   color:white;
+  text-shadow: 1px 1px #000;
 }
 
 .form {
-  background-color: #CCC;
-  padding-top: 10px;
-  padding-bottom: 20px;
+  background-color: #DDD;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .textcenter{
@@ -147,4 +149,13 @@ input {
 
 .basebutton:hover {
   background: #25567B
+}
+
+.footer {
+  color: #999;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  height: 30px;
+  width: 100%;
 }

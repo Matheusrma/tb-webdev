@@ -12,18 +12,23 @@ var allroutes = function() {
   var sections = $('section');
   var section;
 
+  if (route == '') route = 'index';
+
+  console.log(sections)
+
   section = sections.filter('[data-route=' + route + ']');
 
   console.log(sections.length);
   console.log(section.length);
 
   if (section.length) {
-    sections.hide(50);
-    section.show(50);
+    sections.hide(0);
+    section.show(0);
   }
 };
 
 var routes = {
+  '/': stub,
   '/login': stub,
   '/register': stub,
 };
